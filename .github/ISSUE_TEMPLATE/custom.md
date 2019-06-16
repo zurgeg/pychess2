@@ -6,8 +6,8 @@ labels: ''
 assignees: ''
 
 ---
-<br>
 Function (example: 2 players): 
+<br>
 Line (optional): 
 <br>
 Column (optional):
