@@ -10,3 +10,5 @@ On boot of the software enter ```2 players``` to start two player mode
 Click on ChessConnect to lanch ChessConnect.
 #### Connect to another player
 To connect to another player launch ChessConnect and enter the game ID.
+# License and Code of conduct
+The licence is [here](https://www.github.com/zurgeg/pychess2/blob/master/LICENSE
