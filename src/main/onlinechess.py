@@ -84,7 +84,7 @@ elif mode.upper() == "2 PLAYERS":
             MOVE = os.popen('curl --location --request POST "http://chess-api-chess.herokuapp.com/api/v1/chess/two/move" \
           --header "Content-Type: application/x-www-form-urlencoded" \
           --data "from=' + FROM + '&to=' + TO + '&game_id=' + gameid + '"')
-            print(MOVE.read())
+            #print(MOVE.read())
             json_acceptable_string = MOVE.read().replace("'", "\"")
             MOVEP = json.loads(json_acceptable_string)
             if MOVEP["status"] == "error: invalid move!":
