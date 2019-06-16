@@ -12,3 +12,4 @@ Click on ChessConnect to lanch ChessConnect.
 To connect to another player launch ChessConnect and enter the game ID.
 # License and Code of conduct
 The licence is [here](https://www.github.com/zurgeg/pychess2/blob/master/LICENSE) and the Code of Conduct is [here](https://www.github.com/zurgeg/pychess2/blob/master/CODE_OF_CONDUCT.md).
+Oh and the editing conditions are [here](https://www.github.com/zurgeg/pychess2/blob/master/CONTRIBUTING.md).
