@@ -1,5 +1,6 @@
 # pychess2
 Chess
+<br>
 Build Status: [![Build Status](https://travis-ci.com/zurgeg/pychess2.svg?branch=master)](https://travis-ci.com/zurgeg/pychess2)
 
 ## Using the CLI tool
