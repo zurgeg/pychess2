@@ -1,5 +1,5 @@
 language: python
 install:
-- python
+- pip
 script: echo Build Successful!
 
