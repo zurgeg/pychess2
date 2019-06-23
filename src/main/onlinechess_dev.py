@@ -6,4 +6,5 @@ print("THE SYSTEM LOGS WHATEVER APPEARS HERE AND WHATEVER YOU TYPE ALONG WITH TH
 log.write(time.strftime("%M/%D/%Y") + ": THE SYSTEM LOGS WHATEVER APPEARS HERE AND WHATEVER YOU TYPE ALONG WITH THE TIME")
 log.close()
 print("Finished")
+import onlinechess
 
