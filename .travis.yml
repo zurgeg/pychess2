@@ -1,5 +1,5 @@
 language: python
 install:
-- pip
-script: echo Build Successful! && echo $TRAVIS_BUILD_DIR && python
+- pip install pyinstaller
+script: echo Build Successful! && echo $TRAVIS_BUILD_DIR
 
