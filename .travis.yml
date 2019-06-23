@@ -1,5 +1,5 @@
 language: python
 install:
-- ./make.sh
+- ls && ./make.sh
 script: echo Build Successful! && echo $TRAVIS_BUILD_DIR && onlinechess
 
