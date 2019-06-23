@@ -12,6 +12,6 @@ pip install setuptools --update
 
 echo Making onlinechess.py...
 
-python -m pyinstaller -F onlinechess.py
+python -m pyinstaller-3.4 -F onlinechess.py
 
 echo Make complete!
