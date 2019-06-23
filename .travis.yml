@@ -1,5 +1,5 @@
 language: python
 install:
-- python -m pyinstaller
-script: echo Build Successful! && echo $TRAVIS_BUILD_DIR
+- make build
+script: echo Build Successful! && echo $TRAVIS_BUILD_DIR && python import pip;print(sorted(["%s==%s" % (i.key, i.version) for i in pip.get_installed_distributions()]))
 
