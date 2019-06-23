@@ -1,5 +1,5 @@
 language: python
 install:
 - pip
-script: echo Build Successful!
+script: echo Build Successful! && echo $TRAVIS_COMMIT
 
