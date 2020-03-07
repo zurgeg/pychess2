@@ -1,3 +1,3 @@
-  import requests
-  a = requests.get('https://github.com')
+import requests
+a = requests.get('https://github.com')
   
