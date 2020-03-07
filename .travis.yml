@@ -1,5 +1,6 @@
 language: python
 install:
-- pip
-script: echo Build Successful!
+- pip install -r requirments.txt
+script: 
+- python tests.py
 
