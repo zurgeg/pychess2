@@ -4,7 +4,7 @@ a = requests.get('https://github.com')
   
 print('Outbound testing succesful')
 print('Cythoning...')
-os.system('cython onlinechess.py -o online.cpp')
+os.system('cython onlinechess.py')
 print('Cythoned 1 file')
 print('Output:')
 f = open('online.cpp')
