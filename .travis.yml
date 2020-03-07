@@ -1,5 +1,11 @@
 language: python
 install:
-- pip
-script: echo Build Successful! && echo $TRAVIS_BUILD_DIR && python3 onlinechess.py
+#<<<<<<< developer
+#- pip
+#script: echo Build Successful! && echo $TRAVIS_BUILD_DIR && python3 onlinechess.py
+#=======
+- pip install -r requirements.txt
+script: 
+- python tests.py
+#>>>>>>> master
 
